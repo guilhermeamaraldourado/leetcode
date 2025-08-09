@@ -31,6 +31,8 @@ A       N
 */
 
 class Solution {
+
+    //My partial solution
     func convert(_ s: String, _ numRows: Int) -> String {
         if numRows == 1 || s.count  <= numRows{
             return s
